@@ -1,5 +1,5 @@
 interface FlashCardProps {
-  card: Card;
+  card: any;
   theme: any;
   showAnswer: boolean;
   setShowAnswer: (value: boolean) => void;
