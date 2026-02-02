@@ -192,7 +192,7 @@ function App() {
   return (
     <div
       style={{
-        padding: "40px 20px",
+        padding: "40px 40px",
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
         maxWidth: "900px",
         margin: "0 auto",
@@ -206,7 +206,8 @@ function App() {
       <div
         style={{
           position: "absolute",
-          top: "20px",
+          top: "15px",
+          // marginBottom: "10px",
           right: "20px",
           display: "flex",
           gap: "10px",
@@ -301,7 +302,7 @@ function App() {
           fontSize: "2.5rem",
           fontWeight: "700",
           background: isDarkMode 
-            ? "linear-gradient(45deg, #fff, #aaa)"
+            ? 'linear-gradient(45deg, #bbb, #eee)'
             : "linear-gradient(45deg, #333, #666)",
           WebkitBackgroundClip: "text",
           WebkitTextFillColor: "transparent",
